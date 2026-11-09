@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Department,Visit_Type,Wait_Time_Minutes,Consultation_Minutes,Length_of_Stay_Hours,Billing_Amount_INR,Insurance,Admission_Status,Satisfaction_Score,Follow_Up_Required,Visit_Month
+PT1001,63,Female,Dermatology,Emergency,12.0,15,1.5,2800.0,Yes,Not Admitted,5.0,Yes,September
+PT1002,41,Female,Orthopedics,OPD,32.0,28,0.5,3698.0,Yes,Not Admitted,2.0,Yes,March
+PT1003,49,Male,Dermatology,OPD,15.0,14,2.4,1544.0,Yes,Not Admitted,5.0,No,April
+PT1004,38,Male,Cardiology,Emergency,22.0,30,34.8,39048.0,Yes,Admitted,5.0,No,November
+PT1005,36,Female,General Medicine,OPD,21.0,15,1.4,1720.0,No,Not Admitted,5.0,No,May
+PT1006,26,Female,ENT,OPD,2.0,18,1.1,2762.0,Yes,Not Admitted,4.0,No,February
+PT1007,46,Male,Dermatology,OPD,16.0,17,1.3,2141.0,No,Not Admitted,4.0,No,January
+PT1008,25,Male,Dermatology,OPD,13.0,9,1.8,1358.0,Yes,Not Admitted,4.0,No,March
+PT1009,50,Male,General Medicine,Emergency,10.0,18,1.3,2720.0,Yes,Not Admitted,5.0,No,November
+PT1010,57,Male,Pediatrics,OPD,21.0,15,1.5,1946.0,Yes,Not Admitted,5.0,No,July
+PT1011,45,Male,Orthopedics,OPD,23.0,26,2.4,2745.0,Yes,Not Admitted,4.0,Yes,December
+PT1012,34,Female,ENT,OPD,12.0,11,40.4,40616.0,Yes,Admitted,5.0,Yes,March
+PT1013,47,Male,Cardiology,OPD,30.0,32,1.7,5327.0,No,Not Admitted,2.0,No,May
+PT1014,34,Female,Dermatology,OPD,14.0,14,0.6,2367.0,Yes,Not Admitted,4.0,No,February
+PT1015,55,Male,Pediatrics,OPD,17.0,8,3.3,1408.0,Yes,Not Admitted,5.0,No,May
+PT1016,8,Female,General Medicine,OPD,,19,69.9,69772.0,No,Admitted,5.0,No,July
+PT1017,33,Male,Pediatrics,OPD,23.0,26,1.5,2841.0,Yes,Not Admitted,3.0,No,October
+PT1018,5,Male,General Medicine,OPD,10.0,18,0.8,1769.0,Yes,Not Admitted,5.0,No,May
+PT1019,14,Male,Dermatology,OPD,15.0,19,2.4,1728.0,Yes,Not Admitted,5.0,No,October
+PT1020,62,Male,Cardiology,OPD,40.0,27,3.1,3871.0,Yes,Not Admitted,3.0,Yes,August
+PT1021,54,Female,Dermatology,OPD,2.0,5,0.6,2068.0,Yes,Not Admitted,5.0,No,April
+PT1022,27,Male,Orthopedics,OPD,25.0,13,0.9,3429.0,No,Not Admitted,4.0,No,November
+PT1023,13,Female,ENT,OPD,16.0,17,0.9,2805.0,No,Not Admitted,5.0,No,June
+PT1024,1,Female,ENT,OPD,17.0,13,2.3,1682.0,Yes,Not Admitted,5.0,No,February
+PT1025,30,Female,Dermatology,OPD,8.0,7,28.4,29351.0,No,Admitted,5.0,Yes,December
+PT1026,80,Female,General Medicine,OPD,17.0,13,1.8,1682.0,No,Not Admitted,5.0,Yes,November
+PT1027,46,Female,Pediatrics,Emergency,21.0,23,1.5,3327.0,Yes,Not Admitted,4.0,No,January
+PT1028,29,Male,General Medicine,OPD,9.0,6,2.8,2140.0,No,Not Admitted,,Yes,November
+PT1029,47,Male,General Medicine,OPD,10.0,11,2.7,2087.0,No,Not Admitted,4.0,No,December
+PT1030,12,Male,Cardiology,OPD,22.0,35,1.2,6636.0,No,Not Admitted,4.0,No,October
+PT1031,34,Female,Dermatology,OPD,26.0,7,1.0,1512.0,No,Not Admitted,5.0,No,April
+PT1032,41,Female,ENT,OPD,17.0,20,1.6,2482.0,Yes,Not Admitted,5.0,No,August
+PT1033,38,Female,Orthopedics,OPD,24.0,20,2.8,2864.0,Yes,Not Admitted,4.0,Yes,July
+PT1034,52,Male,Orthopedics,OPD,21.0,25,2.6,2559.0,Yes,Not Admitted,5.0,No,August
+PT1035,45,Male,Pediatrics,OPD,9.0,20,11.6,13467.0,Yes,Admitted,5.0,No,August
+PT1036,50,Female,General Medicine,OPD,16.0,17,3.0,2805.0,Yes,Not Admitted,4.0,No,August
+PT1037,27,Male,General Medicine,OPD,35.0,18,1.3,2579.0,No,Not Admitted,4.0,No,July
+PT1038,54,Female,Pediatrics,OPD,26.0,9,1.5,1786.0,Yes,Not Admitted,4.0,No,September
+PT1039,67,Female,General Medicine,OPD,12.0,19,0.6,1778.0,Yes,Not Admitted,5.0,No,July
+PT1040,23,Female,Cardiology,OPD,36.0,23,3.1,4650.0,No,Not Admitted,3.0,Yes,January
+PT1041,24,Female,Orthopedics,OPD,18.0,23,2.2,3982.0,Yes,Not Admitted,5.0,No,January
+PT1042,62,Male,Dermatology,OPD,2.0,13,1.4,2062.0,Yes,Not Admitted,5.0,Yes,December
+PT1043,36,Male,Cardiology,Emergency,30.0,34,0.7,6092.0,No,Not Admitted,5.0,No,November
+PT1044,63,Female,Orthopedics,OPD,32.0,24,2.7,3062.0,Yes,Not Admitted,4.0,No,August
+PT1045,31,Male,Dermatology,OPD,21.0,8,2.7,1927.0,Yes,Not Admitted,4.0,Yes,March
+PT1046,64,Male,Dermatology,Emergency,3.0,10,2.5,527.0,Yes,Not Admitted,5.0,Yes,October
+PT1047,41,Male,Orthopedics,Emergency,15.0,31,1.1,4886.0,No,Not Admitted,5.0,No,February
+PT1048,43,Male,Orthopedics,OPD,29.0,23,3.2,4839.0,Yes,Not Admitted,5.0,No,May
+PT1049,66,Female,Cardiology,Emergency,26.0,38,23.5,27795.0,Yes,Admitted,5.0,No,April
+PT1050,33,Male,General Medicine,Emergency,7.0,18,2.5,2767.0,Yes,Not Admitted,5.0,No,January
+PT1051,23,Female,General Medicine,OPD,7.0,6,2.5,1346.0,Yes,Not Admitted,5.0,No,October
+PT1052,31,Male,General Medicine,OPD,19.0,18,3.2,1996.0,No,Not Admitted,4.0,No,July
+PT1053,47,Female,Dermatology,OPD,22.0,10,3.3,2170.0,Yes,Not Admitted,5.0,No,April
+PT1054,12,Male,Cardiology,OPD,23.0,29,2.3,5235.0,No,Not Admitted,4.0,No,July
+PT1055,50,Female,Cardiology,OPD,35.0,24,1.8,4684.0,Yes,Not Admitted,5.0,No,January
+PT1056,30,Female,Dermatology,OPD,16.0,20,1.6,2788.0,Yes,Not Admitted,5.0,No,June
+PT1057,59,Male,Pediatrics,OPD,21.0,11,3.0,1934.0,No,Not Admitted,4.0,No,July
+PT1058,1,Male,Pediatrics,OPD,22.0,13,2.4,3824.0,Yes,Not Admitted,5.0,Yes,May
+PT1059,26,Female,General Medicine,OPD,13.0,14,0.7,2033.0,Yes,Not Admitted,5.0,No,October
+PT1060,10,Male,General Medicine,Emergency,2.0,13,34.3,35217.0,No,Admitted,5.0,Yes,March
+PT1061,25,Male,Cardiology,OPD,27.0,29,3.2,4034.0,Yes,Not Admitted,4.0,Yes,February
+PT1062,43,Female,Pediatrics,OPD,22.0,23,3.2,2526.0,Yes,Not Admitted,5.0,No,July
+PT1063,36,Male,Pediatrics,OPD,12.0,13,3.4,2706.0,No,Not Admitted,4.0,Yes,November
+PT1064,35,Male,Dermatology,Emergency,2.0,19,1.8,2190.0,Yes,Not Admitted,5.0,No,May
+PT1065,36,Male,Cardiology,Emergency,10.0,18,2.9,3613.0,Yes,Not Admitted,5.0,No,January
+PT1066,42,Female,Pediatrics,Emergency,20.0,20,3.0,3268.0,Yes,Not Admitted,5.0,No,December
+PT1067,22,Female,Pediatrics,Emergency,14.0,18,19.7,22569.0,Yes,Admitted,5.0,No,June
+PT1068,51,Male,Orthopedics,OPD,29.0,18,0.9,3073.0,Yes,Not Admitted,5.0,No,March
+PT1069,50,Male,General Medicine,OPD,25.0,18,3.5,2065.0,No,Not Admitted,4.0,No,August
+PT1070,46,Male,Orthopedics,OPD,28.0,20,0.6,2178.0,Yes,Not Admitted,4.0,No,April
+PT1071,48,Male,General Medicine,OPD,16.0,12,2.3,2049.0,No,Not Admitted,4.0,No,December
+PT1072,44,Male,Orthopedics,Emergency,15.0,25,2.5,4589.0,Yes,Not Admitted,4.0,No,April
+PT1073,74,Male,Dermatology,OPD,11.0,5,66.8,63705.0,Yes,Admitted,4.0,No,July
+PT1074,38,Male,General Medicine,OPD,36.0,7,1.3,2049.0,Yes,Not Admitted,4.0,No,July
+PT1075,34,Male,General Medicine,OPD,22.0,18,2.7,2671.0,No,Not Admitted,5.0,No,March
+PT1076,26,Female,Orthopedics,OPD,21.0,11,1.1,3148.0,Yes,Not Admitted,5.0,No,June
+PT1077,21,Female,Orthopedics,OPD,27.0,18,3.0,3371.0,Yes,Not Admitted,4.0,No,February
+PT1078,18,Male,Cardiology,OPD,24.0,25,1.2,5035.0,No,Not Admitted,5.0,No,August
+PT1079,24,Female,Pediatrics,Emergency,19.0,29,21.6,24731.0,Yes,Admitted,5.0,No,October
+PT1080,38,Female,Dermatology,OPD,9.0,16,2.9,2528.0,Yes,Not Admitted,5.0,No,December
+PT1081,45,Male,Cardiology,Emergency,27.0,29,1.1,4625.0,No,Not Admitted,3.0,No,April
+PT1082,40,Female,Orthopedics,OPD,31.0,29,1.2,3049.0,Yes,Not Admitted,4.0,No,April
+PT1083,26,Female,Dermatology,OPD,17.0,8,2.8,1045.0,Yes,Not Admitted,5.0,No,July
+PT1084,54,Male,General Medicine,OPD,19.0,18,0.8,2179.0,Yes,Not Admitted,5.0,No,September
+PT1085,52,Male,General Medicine,OPD,18.0,6,1.1,1563.0,Yes,Not Admitted,5.0,No,December
+PT1086,36,Female,General Medicine,OPD,18.0,18,1.9,2429.0,Yes,Not Admitted,5.0,No,January
+PT1087,28,Female,Dermatology,Emergency,2.0,15,3.3,3239.0,No,Not Admitted,5.0,No,March
+PT1088,48,Female,Pediatrics,OPD,13.0,10,24.0,25282.0,Yes,Admitted,4.0,Yes,April
+PT1089,42,Male,General Medicine,OPD,28.0,12,1.7,1320.0,No,Not Admitted,4.0,No,April
+PT1090,14,Male,Pediatrics,OPD,15.0,16,38.1,38626.0,No,Admitted,5.0,Yes,June
+PT1091,38,Female,General Medicine,OPD,12.0,11,1.9,1259.0,No,Not Admitted,4.0,Yes,November
+PT1092,43,Male,Cardiology,OPD,27.0,30,1.8,4946.0,No,Not Admitted,4.0,Yes,January
+PT1093,24,Female,Pediatrics,Emergency,16.0,17,1.7,3202.0,No,Not Admitted,4.0,No,October
+PT1094,42,Female,Orthopedics,OPD,29.0,25,1.4,1700.0,No,Not Admitted,3.0,No,August
+PT1095,14,Male,Orthopedics,OPD,28.0,24,1.5,4826.0,Yes,Not Admitted,4.0,No,August
+PT1096,62,Female,Cardiology,OPD,29.0,27,2.6,5137.0,Yes,Not Admitted,5.0,Yes,September
+PT1097,60,Female,Orthopedics,OPD,28.0,20,81.4,80202.0,Yes,Admitted,4.0,No,February
+PT1098,35,Female,General Medicine,OPD,13.0,14,2.5,3010.0,Yes,Not Admitted,4.0,No,September
+PT1099,45,Male,General Medicine,OPD,,16,1.1,1909.0,Yes,Not Admitted,5.0,No,March
+PT1100,1,Male,ENT,OPD,27.0,26,1.7,3223.0,No,Not Admitted,3.0,No,July
+PT1101,19,Male,ENT,Emergency,18.0,26,12.2,15122.0,Yes,Admitted,5.0,No,September
+PT1102,34,Female,Cardiology,OPD,24.0,32,32.9,37364.0,No,Admitted,5.0,No,August
+PT1103,21,Female,General Medicine,OPD,12.0,28,2.7,2942.0,Yes,Not Admitted,5.0,No,April
+PT1104,51,Male,ENT,OPD,21.0,19,1.6,2707.0,Yes,Not Admitted,4.0,Yes,May
+PT1105,73,Female,Dermatology,Emergency,18.0,19,1.0,3587.0,Yes,Not Admitted,5.0,Yes,June
+PT1106,19,Male,Cardiology,OPD,18.0,31,1.2,5447.0,Yes,Not Admitted,3.0,No,January
+PT1107,25,Male,Pediatrics,OPD,18.0,10,3.0,1820.0,Yes,Not Admitted,5.0,No,September
+PT1108,43,Female,General Medicine,OPD,8.0,11,1.3,2336.0,Yes,Not Admitted,5.0,No,February
+PT1109,66,Male,General Medicine,OPD,14.0,10,2.8,3046.0,Yes,Not Admitted,5.0,No,June
+PT1110,18,Female,ENT,OPD,17.0,19,1.5,2800.0,Yes,Not Admitted,5.0,No,August
+PT1111,43,Female,Pediatrics,OPD,13.0,14,1.1,2214.0,Yes,Not Admitted,5.0,No,January
+PT1112,70,Male,General Medicine,OPD,14.0,14,2.7,2044.0,Yes,Not Admitted,5.0,No,December
+PT1113,11,Male,Orthopedics,OPD,24.0,27,1.9,4446.0,Yes,Not Admitted,5.0,No,May
+PT1114,17,Male,Pediatrics,OPD,12.0,19,0.6,2195.0,Yes,Not Admitted,3.0,No,January
+PT1115,32,Male,General Medicine,OPD,8.0,12,3.4,1647.0,Yes,Not Admitted,5.0,No,August
+PT1116,30,Male,Dermatology,OPD,19.0,9,0.9,679.0,Yes,Not Admitted,5.0,No,July
+PT1117,53,Male,Dermatology,OPD,19.0,18,1.6,1549.0,Yes,Not Admitted,5.0,No,August
+PT1118,43,Male,Cardiology,Emergency,29.0,36,1.7,5865.0,No,Not Admitted,3.0,Yes,October
+PT1119,9,Female,Orthopedics,OPD,13.0,14,2.0,2719.0,No,Not Admitted,5.0,No,June
+PT1120,48,Male,Cardiology,OPD,33.0,25,2.9,5648.0,No,Not Admitted,,No,October
+PT1121,29,Male,Pediatrics,Emergency,13.0,21,0.5,3620.0,Yes,Not Admitted,5.0,No,May
+PT1122,61,Female,Cardiology,OPD,24.0,31,3.3,4623.0,Yes,Not Admitted,4.0,Yes,July
+PT1123,28,Female,General Medicine,OPD,18.0,18,2.4,1850.0,Yes,Not Admitted,5.0,No,February
+PT1124,28,Female,Orthopedics,Emergency,15.0,28,3.4,5206.0,No,Not Admitted,4.0,No,August
+PT1125,48,Female,General Medicine,OPD,31.0,16,3.0,2720.0,No,Not Admitted,4.0,No,April
+PT1126,52,Male,Pediatrics,OPD,29.0,15,3.3,2240.0,No,Not Admitted,5.0,No,September
+PT1127,47,Female,Orthopedics,OPD,12.0,19,2.3,2882.0,No,Not Admitted,5.0,Yes,October
+PT1128,10,Male,General Medicine,OPD,35.0,12,1.6,2419.0,Yes,Not Admitted,4.0,No,November
+PT1129,48,Male,General Medicine,OPD,12.0,13,1.8,1329.0,No,Not Admitted,4.0,No,December
+PT1130,21,Male,Pediatrics,OPD,23.0,15,2.5,2441.0,No,Not Admitted,3.0,Yes,February
+PT1131,43,Female,General Medicine,OPD,25.0,5,1.8,2525.0,Yes,Not Admitted,3.0,No,February
+PT1132,15,Female,ENT,OPD,13.0,14,2.7,,No,Not Admitted,5.0,No,December
+PT1133,47,Male,Pediatrics,OPD,19.0,15,0.8,1798.0,Yes,Not Admitted,5.0,Yes,May
+PT1134,25,Male,Orthopedics,OPD,23.0,21,3.0,3501.0,No,Not Admitted,4.0,No,January
+PT1135,17,Male,Cardiology,Emergency,27.0,31,1.1,5516.0,No,Not Admitted,5.0,No,April
+PT1136,51,Male,General Medicine,OPD,20.0,15,3.3,1258.0,Yes,Not Admitted,4.0,No,November
+PT1137,43,Female,ENT,OPD,28.0,11,1.0,2411.0,No,Not Admitted,4.0,No,May
+PT1138,29,Male,Pediatrics,OPD,17.0,7,0.9,2240.0,Yes,Not Admitted,4.0,No,January
+PT1139,64,Female,Dermatology,OPD,13.0,10,2.9,1429.0,No,Not Admitted,5.0,No,September
+PT1140,32,Female,General Medicine,OPD,26.0,17,3.0,1968.0,No,Not Admitted,5.0,No,March
+PT1141,40,Male,Pediatrics,Emergency,12.0,28,2.7,3321.0,No,Not Admitted,3.0,Yes,May
+PT1142,44,Female,Pediatrics,OPD,21.0,19,3.4,2443.0,No,Not Admitted,,No,January
+PT1143,28,Female,ENT,OPD,15.0,9,1.3,1566.0,Yes,Not Admitted,5.0,Yes,August
+PT1144,47,Female,Pediatrics,Emergency,2.0,19,3.0,2619.0,Yes,Not Admitted,4.0,No,June
+PT1145,30,Female,Pediatrics,OPD,12.0,16,39.5,40866.0,Yes,Admitted,5.0,No,November
+PT1146,32,Male,General Medicine,OPD,14.0,14,2.1,2207.0,Yes,Not Admitted,5.0,No,May
+PT1147,62,Female,Orthopedics,OPD,30.0,25,1.8,3890.0,Yes,Not Admitted,4.0,No,March
+PT1148,21,Male,Pediatrics,OPD,23.0,10,0.5,2336.0,Yes,Not Admitted,5.0,No,February
+PT1149,1,Male,Orthopedics,OPD,23.0,22,2.2,3774.0,Yes,Not Admitted,5.0,No,March
+PT1150,66,Female,General Medicine,OPD,28.0,15,2.7,1798.0,Yes,Not Admitted,5.0,No,June
+PT1151,82,Female,Dermatology,Emergency,16.0,21,16.4,18805.0,No,Admitted,4.0,No,February
+PT1152,32,Male,ENT,Emergency,14.0,17,24.7,26442.0,Yes,Admitted,4.0,No,May
+PT1153,6,Male,General Medicine,Emergency,4.0,16,17.8,19901.0,No,Admitted,4.0,Yes,November
+PT1154,34,Male,Pediatrics,OPD,27.0,5,1.0,1663.0,Yes,Not Admitted,5.0,Yes,October
+PT1155,34,Male,General Medicine,OPD,18.0,10,2.4,1440.0,Yes,Not Admitted,4.0,Yes,August
+PT1156,36,Female,Cardiology,Emergency,24.0,29,9.9,14299.0,Yes,Admitted,4.0,Yes,November
+PT1157,20,Female,Orthopedics,OPD,22.0,17,0.7,3055.0,Yes,Not Admitted,5.0,No,October
+PT1158,49,Male,Cardiology,OPD,25.0,28,2.6,4788.0,Yes,Not Admitted,4.0,No,August
+PT1159,48,Female,Dermatology,OPD,4.0,12,0.8,710.0,Yes,Not Admitted,5.0,No,November
+PT1160,14,Male,Dermatology,OPD,18.0,5,0.8,,Yes,Not Admitted,5.0,No,February
+PT1161,51,Male,General Medicine,OPD,13.0,14,2.7,2481.0,Yes,Not Admitted,5.0,No,October
+PT1162,74,Male,ENT,Emergency,33.0,16,0.7,4441.0,Yes,Not Admitted,4.0,No,April
+PT1163,42,Female,General Medicine,OPD,10.0,15,2.9,1810.0,Yes,Not Admitted,5.0,No,September
+PT1164,33,Female,General Medicine,OPD,9.0,7,2.9,1129.0,No,Not Admitted,5.0,No,November
+PT1165,37,Female,Pediatrics,Emergency,12.0,20,0.9,2640.0,Yes,Not Admitted,5.0,No,June
+PT1166,49,Female,Orthopedics,OPD,35.0,21,27.1,29135.0,No,Admitted,4.0,No,February
+PT1167,10,Male,Dermatology,OPD,14.0,14,0.8,2011.0,No,Not Admitted,4.0,No,May
+PT1168,42,Female,Dermatology,Emergency,10.0,18,2.4,2404.0,No,Not Admitted,3.0,No,May
+PT1169,32,Female,Orthopedics,OPD,11.0,21,0.7,3179.0,No,Not Admitted,3.0,No,December
+PT1170,70,Female,ENT,OPD,15.0,8,30.9,30067.0,Yes,Admitted,3.0,No,December
+PT1171,36,Female,Orthopedics,OPD,16.0,15,1.1,3335.0,Yes,Not Admitted,5.0,No,July
+PT1172,67,Male,Pediatrics,OPD,3.0,12,2.5,1576.0,Yes,Not Admitted,4.0,No,December
+PT1173,20,Female,General Medicine,OPD,19.0,13,0.9,1856.0,No,Not Admitted,5.0,Yes,June
+PT1174,49,Male,ENT,OPD,4.0,13,1.1,1390.0,No,Not Admitted,5.0,Yes,May
+PT1175,44,Female,General Medicine,OPD,9.0,16,1.9,1780.0,Yes,Not Admitted,5.0,No,November
+PT1176,24,Male,General Medicine,OPD,14.0,12,2.2,1646.0,No,Not Admitted,4.0,Yes,September
+PT1177,42,Female,Orthopedics,OPD,18.0,17,3.5,2969.0,Yes,Not Admitted,5.0,No,July
+PT1178,60,Female,ENT,Emergency,15.0,20,0.6,3614.0,Yes,Not Admitted,4.0,Yes,June
+PT1179,33,Male,ENT,OPD,22.0,17,0.5,3266.0,No,Not Admitted,4.0,No,September
+PT1180,10,Male,Dermatology,OPD,20.0,14,1.6,2303.0,Yes,Not Admitted,,No,October
+PT1181,39,Male,ENT,OPD,25.0,25,1.6,3604.0,No,Not Admitted,5.0,No,June
+PT1182,24,Female,ENT,OPD,28.0,13,3.2,2970.0,No,Not Admitted,4.0,No,January
+PT1183,33,Female,Pediatrics,OPD,16.0,15,3.2,2538.0,Yes,Not Admitted,5.0,Yes,February
+PT1184,38,Male,Orthopedics,OPD,26.0,24,3.1,3480.0,Yes,Not Admitted,4.0,Yes,February
+PT1185,10,Female,Dermatology,Emergency,10.0,17,20.0,22330.0,Yes,Admitted,5.0,No,June
+PT1186,12,Male,Cardiology,OPD,32.0,24,75.4,76820.0,No,Admitted,3.0,No,August
+PT1187,47,Male,Orthopedics,Emergency,13.0,19,36.3,38617.0,Yes,Admitted,5.0,No,October
+PT1188,30,Male,General Medicine,Emergency,8.0,15,45.8,45385.0,No,Admitted,4.0,Yes,March
+PT1189,1,Male,Dermatology,OPD,8.0,7,2.5,912.0,No,Not Admitted,5.0,No,October
+PT1190,52,Male,General Medicine,OPD,21.0,5,1.2,1124.0,Yes,Not Admitted,4.0,Yes,August
+PT1191,44,Female,ENT,OPD,19.0,12,1.5,2529.0,Yes,Not Admitted,5.0,No,January
+PT1192,27,Female,General Medicine,Emergency,5.0,13,8.2,10303.0,No,Admitted,5.0,No,May
+PT1193,17,Male,General Medicine,OPD,13.0,16,1.3,2725.0,No,Not Admitted,5.0,No,April
+PT1194,53,Male,Dermatology,OPD,6.0,15,3.4,2698.0,Yes,Not Admitted,4.0,No,November
+PT1195,45,Female,General Medicine,Emergency,17.0,13,28.0,29785.0,Yes,Admitted,5.0,No,December
+PT1196,80,Female,General Medicine,OPD,19.0,12,0.6,2463.0,Yes,Not Admitted,5.0,Yes,October
+PT1197,46,Male,Cardiology,OPD,25.0,18,52.3,53265.0,No,Admitted,4.0,Yes,July
+PT1198,46,Male,Dermatology,OPD,20.0,10,1.0,1865.0,Yes,Not Admitted,5.0,No,June
+PT1199,36,Male,General Medicine,Emergency,6.0,20,2.0,2716.0,No,Not Admitted,4.0,Yes,April
+PT1200,53,Female,Orthopedics,Emergency,6.0,31,0.8,3768.0,Yes,Not Admitted,5.0,Yes,October
+PT1201,50,Female,Dermatology,OPD,21.0,8,2.4,1292.0,No,Not Admitted,5.0,No,February
+PT1202,60,Male,ENT,OPD,16.0,21,3.1,3504.0,Yes,Not Admitted,4.0,Yes,April
+PT1203,30,Female,Pediatrics,OPD,13.0,7,1.6,1878.0,Yes,Not Admitted,4.0,No,February
+PT1204,32,Male,General Medicine,OPD,18.0,7,1.0,2535.0,No,Not Admitted,5.0,No,June
+PT1205,31,Male,General Medicine,OPD,26.0,17,1.7,2272.0,No,Not Admitted,5.0,No,April
+PT1206,52,Female,General Medicine,Emergency,10.0,26,67.3,68781.0,Yes,Admitted,5.0,No,March
+PT1207,64,Female,General Medicine,OPD,10.0,15,25.1,25968.0,Yes,Admitted,5.0,Yes,May
+PT1208,31,Female,Cardiology,OPD,35.0,27,36.4,39417.0,Yes,Admitted,4.0,Yes,November
+PT1209,32,Male,General Medicine,OPD,15.0,5,2.1,571.0,Yes,Not Admitted,4.0,No,July
+PT1210,44,Male,Pediatrics,OPD,29.0,5,1.9,2086.0,Yes,Not Admitted,4.0,No,October
+PT1211,35,Female,Cardiology,OPD,31.0,28,1.5,4624.0,No,Not Admitted,3.0,No,November
+PT1212,55,Male,Pediatrics,OPD,2.0,13,0.8,1719.0,Yes,Not Admitted,5.0,No,November
+PT1213,1,Female,General Medicine,OPD,21.0,7,3.4,2130.0,No,Not Admitted,5.0,No,May
+PT1214,25,Female,Dermatology,Emergency,20.0,17,1.0,3412.0,Yes,Not Admitted,5.0,No,November
+PT1215,26,Male,Cardiology,OPD,42.0,28,1.1,5523.0,Yes,Not Admitted,4.0,Yes,November
+PT1216,1,Female,Dermatology,OPD,27.0,17,0.9,1926.0,No,Not Admitted,3.0,No,December
+PT1217,23,Female,General Medicine,Emergency,3.0,19,83.2,81987.0,Yes,Admitted,5.0,Yes,May
+PT1218,23,Male,General Medicine,OPD,24.0,19,1.8,2292.0,No,Not Admitted,3.0,No,March
+PT1219,36,Female,ENT,OPD,15.0,16,1.2,2830.0,Yes,Not Admitted,5.0,No,August
+PT1220,58,Male,Orthopedics,OPD,26.0,21,1.8,4129.0,No,Not Admitted,5.0,Yes,December
+PT1221,35,Female,Orthopedics,Emergency,7.0,32,2.5,4952.0,No,Not Admitted,5.0,No,November
+PT1222,21,Female,Pediatrics,OPD,11.0,10,1.3,2936.0,No,Not Admitted,4.0,No,July
+PT1223,38,Female,Cardiology,Emergency,18.0,46,47.2,52233.0,Yes,Admitted,4.0,Yes,February
+PT1224,57,Female,ENT,OPD,26.0,18,1.4,2421.0,Yes,Not Admitted,5.0,No,June
+PT1225,22,Female,Orthopedics,OPD,30.0,24,45.7,47371.0,Yes,Admitted,4.0,Yes,September
+PT1226,24,Female,ENT,OPD,22.0,19,3.4,3563.0,Yes,Not Admitted,3.0,Yes,July
+PT1227,48,Male,General Medicine,OPD,9.0,22,2.9,3649.0,Yes,Not Admitted,5.0,Yes,May
+PT1228,35,Female,Pediatrics,OPD,14.0,19,1.5,3178.0,Yes,Not Admitted,5.0,No,May
+PT1229,50,Female,Cardiology,OPD,26.0,19,3.0,4239.0,Yes,Not Admitted,5.0,Yes,January
+PT1230,39,Female,General Medicine,Emergency,16.0,25,16.4,18886.0,Yes,Admitted,5.0,Yes,April
+PT1231,51,Female,General Medicine,OPD,26.0,11,1.5,2042.0,Yes,Not Admitted,5.0,No,September
+PT1232,21,Female,Orthopedics,OPD,31.0,23,3.0,4346.0,Yes,Not Admitted,3.0,No,March
+PT1233,39,Male,ENT,OPD,15.0,10,2.8,2189.0,Yes,Not Admitted,4.0,No,December
+PT1234,35,Female,Cardiology,OPD,12.0,30,1.4,5300.0,No,Not Admitted,5.0,No,January
+PT1235,18,Male,ENT,OPD,8.0,13,2.3,2203.0,Yes,Not Admitted,5.0,No,August
+PT1236,12,Male,Dermatology,OPD,24.0,13,1.6,1645.0,Yes,Not Admitted,4.0,No,June
+PT1237,51,Female,Pediatrics,OPD,13.0,14,0.5,,Yes,Not Admitted,5.0,No,October
+PT1238,33,Female,Dermatology,OPD,9.0,22,3.4,2574.0,No,Not Admitted,4.0,No,November
+PT1239,22,Female,General Medicine,Emergency,21.0,28,2.1,4595.0,Yes,Not Admitted,4.0,No,July
+PT1240,37,Male,General Medicine,OPD,27.0,13,2.3,1743.0,No,Not Admitted,5.0,No,August
+PT1241,58,Female,Dermatology,OPD,14.0,12,2.3,1779.0,No,Not Admitted,4.0,No,September
+PT1242,1,Male,Dermatology,OPD,12.0,10,2.2,1124.0,Yes,Not Admitted,5.0,No,July
+PT1243,14,Male,General Medicine,OPD,17.0,19,1.4,2719.0,No,Not Admitted,4.0,No,March
+PT1244,23,Male,Pediatrics,Emergency,,18,3.4,3852.0,No,Not Admitted,4.0,Yes,June
+PT1245,64,Male,Cardiology,Emergency,34.0,30,2.4,6593.0,Yes,Not Admitted,5.0,No,March
+PT1246,44,Male,Dermatology,Emergency,9.0,22,19.0,21312.0,Yes,Admitted,5.0,No,June
+PT1247,52,Female,Cardiology,OPD,36.0,24,1.9,4916.0,No,Not Admitted,3.0,No,August
+PT1248,20,Female,Orthopedics,OPD,32.0,22,1.4,3266.0,No,Not Admitted,4.0,No,March
+PT1249,20,Female,Orthopedics,OPD,16.0,14,0.7,3040.0,Yes,Not Admitted,4.0,No,March
+PT1250,47,Male,Orthopedics,OPD,29.0,26,1.6,3823.0,Yes,Not Admitted,4.0,No,October
+PT1251,40,Male,Cardiology,OPD,29.0,37,1.0,5607.0,Yes,Not Admitted,5.0,No,May
+PT1252,48,Male,Dermatology,OPD,2.0,16,2.5,2126.0,Yes,Not Admitted,5.0,No,March
+PT1253,36,Female,Pediatrics,Emergency,2.0,27,3.1,4024.0,No,Not Admitted,5.0,No,September
+PT1254,44,Male,General Medicine,OPD,11.0,9,1.4,1413.0,Yes,Not Admitted,5.0,Yes,September
+PT1255,42,Male,General Medicine,OPD,22.0,14,1.5,1817.0,No,Not Admitted,4.0,No,October
+PT1256,52,Male,Dermatology,Emergency,7.0,12,2.5,3339.0,No,Not Admitted,5.0,No,October
+PT1257,53,Male,Dermatology,OPD,15.0,11,0.9,3166.0,No,Not Admitted,2.0,No,December
+PT1258,11,Female,General Medicine,OPD,32.0,17,3.3,1513.0,No,Not Admitted,4.0,No,July
+PT1259,1,Female,General Medicine,OPD,9.0,14,1.6,1257.0,No,Not Admitted,5.0,No,April
+PT1260,56,Male,Cardiology,Emergency,23.0,25,44.0,46599.0,No,Admitted,5.0,No,November
+PT1261,59,Female,General Medicine,OPD,20.0,6,1.0,1293.0,No,Not Admitted,5.0,No,April
+PT1262,22,Female,Dermatology,OPD,9.0,5,3.3,1718.0,Yes,Not Admitted,4.0,No,April
+PT1263,7,Female,Orthopedics,OPD,24.0,24,1.2,3825.0,Yes,Not Admitted,5.0,No,October
+PT1264,41,Female,General Medicine,OPD,7.0,23,2.5,2720.0,Yes,Not Admitted,5.0,No,November
+PT1265,55,Male,ENT,OPD,30.0,23,1.0,3216.0,No,Not Admitted,3.0,Yes,May
+PT1266,70,Male,General Medicine,OPD,13.0,5,1.1,894.0,No,Not Admitted,5.0,No,September
+PT1267,48,Female,Orthopedics,OPD,38.0,29,3.1,3741.0,Yes,Not Admitted,4.0,No,December
+PT1268,33,Female,General Medicine,OPD,18.0,18,0.9,2239.0,Yes,Not Admitted,5.0,No,October
+PT1269,24,Female,General Medicine,OPD,25.0,5,0.6,500.0,Yes,Not Admitted,5.0,Yes,January
+PT1270,39,Male,General Medicine,OPD,18.0,11,2.0,1086.0,No,Not Admitted,5.0,No,August
+PT1271,34,Male,General Medicine,OPD,18.0,18,3.1,1633.0,Yes,Not Admitted,5.0,Yes,March
+PT1272,22,Male,General Medicine,Emergency,6.0,21,1.5,3545.0,Yes,Not Admitted,5.0,No,November
+PT1273,74,Female,General Medicine,OPD,19.0,6,0.9,1485.0,No,Not Admitted,5.0,No,January
+PT1274,69,Female,Cardiology,OPD,33.0,30,34.1,37781.0,No,Admitted,5.0,Yes,December
+PT1275,58,Female,Cardiology,Emergency,18.0,21,2.5,4013.0,Yes,Not Admitted,5.0,Yes,March
+PT1276,23,Male,Orthopedics,OPD,23.0,21,3.1,2459.0,Yes,Not Admitted,5.0,No,June
+PT1277,54,Female,Orthopedics,OPD,20.0,28,2.8,4165.0,No,Not Admitted,5.0,No,March
+PT1278,50,Male,Pediatrics,OPD,32.0,15,2.6,697.0,No,Not Admitted,4.0,No,October
+PT1279,47,Male,Dermatology,OPD,13.0,10,1.7,2274.0,No,Not Admitted,5.0,No,May
+PT1280,60,Female,Dermatology,OPD,25.0,16,1.5,1047.0,Yes,Not Admitted,5.0,No,September
+PT1281,50,Female,General Medicine,Emergency,9.0,23,46.4,,Yes,Admitted,5.0,No,January
+PT1282,52,Female,General Medicine,OPD,20.0,20,2.7,1911.0,Yes,Not Admitted,5.0,No,June
+PT1283,50,Female,General Medicine,OPD,9.0,17,3.4,2752.0,No,Not Admitted,4.0,No,November
+PT1284,45,Female,General Medicine,OPD,15.0,18,2.2,4014.0,Yes,Not Admitted,5.0,No,December
+PT1285,9,Male,Pediatrics,OPD,17.0,19,1.4,1275.0,Yes,Not Admitted,5.0,No,March
+PT1286,40,Female,Orthopedics,OPD,35.0,23,16.4,19387.0,No,Admitted,4.0,Yes,May
+PT1287,30,Female,General Medicine,OPD,20.0,13,2.3,881.0,No,Not Admitted,4.0,Yes,May
+PT1288,17,Male,Orthopedics,OPD,34.0,21,1.8,3510.0,No,Not Admitted,4.0,No,July
+PT1289,68,Male,Pediatrics,OPD,20.0,9,2.9,1661.0,Yes,Not Admitted,5.0,No,July
+PT1290,68,Female,General Medicine,OPD,29.0,8,2.3,1571.0,Yes,Not Admitted,4.0,No,February
+PT1291,62,Male,Dermatology,OPD,14.0,11,0.5,1174.0,Yes,Not Admitted,5.0,No,October
+PT1292,43,Male,General Medicine,OPD,35.0,14,2.2,2379.0,Yes,Not Admitted,4.0,No,March
+PT1293,62,Male,ENT,OPD,17.0,23,2.4,2128.0,Yes,Not Admitted,4.0,No,April
+PT1294,39,Male,General Medicine,OPD,13.0,13,3.2,2558.0,Yes,Not Admitted,5.0,No,November
+PT1295,42,Female,Dermatology,OPD,6.0,17,1.7,1900.0,No,Not Admitted,5.0,No,September
+PT1296,20,Male,ENT,OPD,36.0,21,2.2,2004.0,No,Not Admitted,5.0,No,May
+PT1297,46,Female,ENT,OPD,26.0,15,1.9,3202.0,No,Not Admitted,4.0,No,November
+PT1298,40,Male,Dermatology,OPD,12.0,15,2.1,1938.0,Yes,Not Admitted,5.0,Yes,May
+PT1299,17,Male,Dermatology,OPD,23.0,11,0.7,2724.0,Yes,Not Admitted,5.0,No,July
+PT1300,38,Female,Cardiology,OPD,36.0,34,44.0,47822.0,Yes,Admitted,3.0,Yes,March
+PT1301,38,Female,Dermatology,Emergency,20.0,20,14.3,16146.0,Yes,Admitted,5.0,No,March
+PT1302,70,Male,General Medicine,OPD,7.0,7,30.2,30068.0,Yes,Admitted,5.0,Yes,June
+PT1303,54,Male,Pediatrics,OPD,14.0,16,2.2,2367.0,Yes,Not Admitted,5.0,No,July
+PT1304,39,Female,Pediatrics,OPD,13.0,23,0.7,3664.0,No,Not Admitted,5.0,No,October
+PT1305,43,Male,Dermatology,OPD,2.0,11,2.3,1916.0,Yes,Not Admitted,5.0,Yes,May
+PT1306,40,Male,Pediatrics,OPD,23.0,17,1.8,2472.0,No,Not Admitted,4.0,No,November
+PT1307,36,Male,Orthopedics,Emergency,14.0,30,2.6,4490.0,Yes,Not Admitted,5.0,No,August
+PT1308,21,Female,Cardiology,OPD,36.0,22,0.6,4422.0,Yes,Not Admitted,3.0,No,January
+PT1309,36,Female,General Medicine,OPD,35.0,16,2.6,2818.0,Yes,Not Admitted,3.0,Yes,September
+PT1310,26,Male,General Medicine,OPD,16.0,6,1.4,1352.0,Yes,Not Admitted,4.0,No,July
+PT1311,18,Female,Pediatrics,OPD,13.0,12,2.5,1783.0,Yes,Not Admitted,5.0,No,May
+PT1312,48,Male,Orthopedics,OPD,25.0,27,2.4,3415.0,No,Not Admitted,3.0,No,June
+PT1313,46,Female,General Medicine,OPD,25.0,15,1.2,1720.0,Yes,Not Admitted,4.0,No,April
+PT1314,9,Male,Orthopedics,OPD,20.0,20,1.8,2429.0,Yes,Not Admitted,,No,August
+PT1315,37,Female,Orthopedics,Emergency,12.0,29,3.0,4112.0,Yes,Not Admitted,5.0,No,July
+PT1316,56,Female,Orthopedics,OPD,31.0,22,2.3,4174.0,Yes,Not Admitted,4.0,No,June
+PT1317,57,Male,Orthopedics,OPD,27.0,22,0.7,3236.0,No,Not Admitted,4.0,No,April
+PT1318,56,Male,Cardiology,Emergency,9.0,35,1.8,6462.0,Yes,Not Admitted,5.0,No,May
+PT1319,40,Male,Orthopedics,OPD,15.0,18,1.4,1687.0,No,Not Admitted,5.0,No,June
+PT1320,25,Male,ENT,OPD,,16,2.4,2713.0,Yes,Not Admitted,4.0,No,June
+PT1321,21,Male,ENT,OPD,23.0,14,2.3,2161.0,Yes,Not Admitted,4.0,No,April
+PT1322,45,Male,Pediatrics,OPD,11.0,7,0.5,1360.0,No,Not Admitted,5.0,No,July
+PT1323,45,Female,Orthopedics,OPD,23.0,17,2.3,3075.0,No,Not Admitted,4.0,No,March
+PT1324,61,Male,Pediatrics,OPD,16.0,23,2.7,2552.0,Yes,Not Admitted,4.0,Yes,July
+PT1325,58,Male,Dermatology,OPD,19.0,14,2.8,732.0,Yes,Not Admitted,5.0,Yes,February
+PT1326,37,Female,Cardiology,OPD,21.0,20,0.7,4807.0,Yes,Not Admitted,4.0,No,June
+PT1327,18,Female,Dermatology,OPD,8.0,5,1.4,1359.0,Yes,Not Admitted,4.0,No,October
+PT1328,34,Male,Pediatrics,OPD,18.0,14,1.8,1977.0,Yes,Not Admitted,5.0,No,October
+PT1329,43,Male,Cardiology,OPD,30.0,35,1.0,4894.0,No,Not Admitted,4.0,No,September
+PT1330,36,Male,Orthopedics,Emergency,20.0,26,1.8,3492.0,Yes,Not Admitted,3.0,No,September
+PT1331,29,Male,Dermatology,OPD,5.0,19,0.7,2398.0,No,Not Admitted,5.0,No,January
+PT1332,43,Male,General Medicine,OPD,20.0,15,0.8,2912.0,Yes,Not Admitted,5.0,No,May
+PT1333,30,Female,Cardiology,OPD,39.0,29,2.5,5087.0,No,Not Admitted,4.0,Yes,August
+PT1334,28,Female,Dermatology,OPD,17.0,5,1.3,500.0,No,Not Admitted,5.0,No,October
+PT1335,44,Female,General Medicine,OPD,19.0,18,2.6,2374.0,Yes,Not Admitted,5.0,Yes,July
+PT1336,32,Female,Cardiology,OPD,30.0,25,0.6,4646.0,Yes,Not Admitted,5.0,No,November
+PT1337,43,Male,General Medicine,OPD,12.0,17,2.2,2650.0,Yes,Not Admitted,5.0,No,April
+PT1338,44,Male,Dermatology,Emergency,5.0,13,1.7,2809.0,No,Not Admitted,5.0,No,February
+PT1339,20,Female,General Medicine,OPD,27.0,14,2.9,500.0,Yes,Not Admitted,5.0,No,February
+PT1340,31,Female,ENT,OPD,19.0,18,2.9,2850.0,Yes,Not Admitted,5.0,No,July
+PT1341,63,Male,General Medicine,Emergency,4.0,17,1.6,2273.0,Yes,Not Admitted,5.0,Yes,August
+PT1342,19,Female,ENT,Emergency,9.0,23,2.4,2793.0,No,Not Admitted,5.0,Yes,April
+PT1343,3,Male,Dermatology,OPD,15.0,11,1.2,1571.0,Yes,Not Admitted,4.0,No,October
+PT1344,7,Female,Cardiology,OPD,28.0,24,2.2,4826.0,Yes,Not Admitted,5.0,No,September
+PT1345,39,Male,Dermatology,OPD,17.0,20,0.7,1448.0,No,Not Admitted,4.0,No,May
+PT1346,40,Female,Dermatology,OPD,18.0,17,1.8,2513.0,Yes,Not Admitted,4.0,No,March
+PT1347,37,Male,ENT,OPD,26.0,12,15.2,16960.0,No,Admitted,5.0,Yes,September
+PT1348,60,Female,General Medicine,Emergency,20.0,21,3.2,3151.0,Yes,Not Admitted,5.0,No,September
+PT1349,1,Male,Cardiology,Emergency,30.0,28,1.8,5073.0,Yes,Not Admitted,3.0,No,March
+PT1350,46,Female,General Medicine,OPD,11.0,7,2.3,886.0,No,Not Admitted,4.0,Yes,April
+PT1351,66,Female,Cardiology,OPD,25.0,32,1.6,5764.0,No,Not Admitted,3.0,No,June
+PT1352,20,Male,General Medicine,Emergency,9.0,9,1.4,1394.0,No,Not Admitted,4.0,No,July
+PT1353,33,Female,Pediatrics,Emergency,5.0,25,1.1,4210.0,Yes,Not Admitted,5.0,No,February
+PT1354,26,Female,Pediatrics,OPD,8.0,14,38.0,38159.0,Yes,Admitted,5.0,Yes,December
+PT1355,24,Female,Pediatrics,OPD,13.0,14,2.9,2097.0,Yes,Not Admitted,5.0,No,May
+PT1356,33,Female,Pediatrics,Emergency,5.0,22,0.9,2461.0,Yes,Not Admitted,5.0,No,May
+PT1357,63,Female,Dermatology,OPD,9.0,15,2.7,1894.0,Yes,Not Admitted,5.0,Yes,January
+PT1358,70,Male,Dermatology,OPD,12.0,8,15.9,16892.0,Yes,Admitted,5.0,No,November
+PT1359,33,Female,Pediatrics,Emergency,16.0,24,0.5,2815.0,Yes,Not Admitted,5.0,No,March
+PT1360,71,Male,Cardiology,Emergency,24.0,33,41.7,45814.0,Yes,Admitted,5.0,No,December
+PT1361,40,Male,ENT,Emergency,29.0,15,0.9,3024.0,Yes,Not Admitted,5.0,No,June
+PT1362,69,Female,General Medicine,OPD,19.0,12,1.1,1446.0,Yes,Not Admitted,5.0,Yes,November
+PT1363,37,Male,General Medicine,OPD,16.0,20,2.6,2870.0,No,Not Admitted,5.0,No,March
+PT1364,41,Male,General Medicine,OPD,18.0,21,1.3,1264.0,No,Not Admitted,3.0,No,February
+PT1365,45,Male,Cardiology,OPD,33.0,31,3.2,,Yes,Not Admitted,4.0,No,October
+PT1366,88,Female,Orthopedics,OPD,27.0,16,2.5,3791.0,No,Not Admitted,4.0,No,October
+PT1367,53,Female,Dermatology,OPD,29.0,14,36.2,37082.0,No,Admitted,5.0,Yes,July
+PT1368,27,Female,Cardiology,OPD,25.0,31,2.3,5339.0,Yes,Not Admitted,5.0,Yes,January
+PT1369,55,Male,Orthopedics,OPD,30.0,26,3.1,3484.0,Yes,Not Admitted,3.0,No,December
+PT1370,33,Male,ENT,OPD,21.0,20,1.6,2350.0,Yes,Not Admitted,5.0,No,May
+PT1371,31,Male,Dermatology,OPD,3.0,14,2.1,1733.0,Yes,Not Admitted,4.0,No,December
+PT1372,54,Female,General Medicine,OPD,23.0,13,2.0,2174.0,No,Not Admitted,3.0,No,November
+PT1373,40,Male,Orthopedics,OPD,33.0,19,3.2,2681.0,No,Not Admitted,4.0,Yes,November
+PT1374,44,Female,Orthopedics,OPD,18.0,13,1.0,3092.0,Yes,Not Admitted,4.0,Yes,September
+PT1375,39,Male,General Medicine,Emergency,10.0,20,2.2,4223.0,No,Not Admitted,4.0,No,September
+PT1376,45,Female,General Medicine,OPD,6.0,14,2.8,1916.0,Yes,Not Admitted,5.0,No,July
+PT1377,46,Male,ENT,OPD,11.0,19,1.6,1886.0,No,Not Admitted,5.0,No,January
+PT1378,6,Male,Orthopedics,OPD,31.0,15,23.8,24695.0,No,Admitted,5.0,No,May
+PT1379,50,Female,Orthopedics,OPD,21.0,25,1.6,4002.0,Yes,Not Admitted,4.0,No,September
+PT1380,22,Female,Dermatology,OPD,6.0,22,1.0,2467.0,Yes,Not Admitted,5.0,No,October
+PT1381,14,Male,Pediatrics,OPD,18.0,15,2.3,2707.0,No,Not Admitted,4.0,Yes,July
+PT1382,38,Female,ENT,OPD,16.0,16,1.8,2107.0,No,Not Admitted,5.0,No,September
+PT1383,40,Male,Dermatology,OPD,11.0,14,0.5,2357.0,Yes,Not Admitted,3.0,No,January
+PT1384,27,Male,Pediatrics,OPD,21.0,25,0.7,2888.0,Yes,Not Admitted,4.0,No,June
+PT1385,53,Male,Orthopedics,OPD,16.0,17,1.1,2572.0,Yes,Not Admitted,5.0,Yes,July
+PT1386,16,Female,ENT,OPD,14.0,17,2.8,2254.0,Yes,Not Admitted,4.0,No,November
+PT1387,32,Female,Cardiology,OPD,32.0,23,3.2,3867.0,No,Not Admitted,4.0,Yes,April
+PT1388,29,Female,ENT,OPD,27.0,13,2.1,3269.0,No,Not Admitted,4.0,No,March
+PT1389,38,Male,General Medicine,Emergency,19.0,18,0.8,2847.0,No,Not Admitted,4.0,Yes,May
+PT1390,44,Female,Dermatology,OPD,9.0,19,2.1,2629.0,No,Not Admitted,5.0,No,March
+PT1391,22,Female,Cardiology,OPD,38.0,36,3.1,5205.0,No,Not Admitted,4.0,Yes,July
+PT1392,51,Female,General Medicine,OPD,13.0,15,2.7,1446.0,Yes,Not Admitted,5.0,Yes,August
+PT1393,40,Male,Pediatrics,OPD,29.0,13,1.4,1946.0,Yes,Not Admitted,4.0,No,October
+PT1394,7,Female,Cardiology,OPD,23.0,39,0.9,6331.0,Yes,Not Admitted,4.0,Yes,December
+PT1395,6,Male,General Medicine,OPD,27.0,11,3.2,1439.0,Yes,Not Admitted,4.0,No,January
+PT1396,39,Male,Pediatrics,Emergency,3.0,17,3.1,2546.0,No,Not Admitted,4.0,No,March
+PT1397,35,Male,Dermatology,OPD,28.0,5,0.7,1311.0,No,Not Admitted,4.0,No,April
+PT1398,37,Male,Orthopedics,OPD,28.0,29,3.0,4149.0,No,Not Admitted,4.0,Yes,March
+PT1399,39,Male,Pediatrics,Emergency,2.0,25,32.2,35119.0,Yes,Admitted,5.0,Yes,October
+PT1400,43,Male,Pediatrics,OPD,12.0,27,54.6,55190.0,Yes,Admitted,5.0,No,February
+PT1401,55,Female,Orthopedics,OPD,29.0,15,2.8,3179.0,Yes,Not Admitted,5.0,No,January
+PT1402,20,Male,ENT,OPD,27.0,23,2.1,3321.0,Yes,Not Admitted,4.0,No,November
+PT1403,19,Male,Dermatology,OPD,14.0,12,1.7,1116.0,Yes,Not Admitted,5.0,No,December
+PT1404,20,Male,General Medicine,OPD,18.0,17,3.2,1645.0,Yes,Not Admitted,4.0,No,March
+PT1405,44,Male,ENT,OPD,25.0,8,3.0,1204.0,Yes,Not Admitted,4.0,No,April
+PT1406,60,Male,Dermatology,Emergency,7.0,24,12.6,14537.0,No,Admitted,5.0,No,July
+PT1407,32,Male,Orthopedics,OPD,15.0,26,2.3,4088.0,Yes,Not Admitted,5.0,No,July
+PT1408,1,Male,Dermatology,OPD,8.0,12,2.8,1910.0,Yes,Not Admitted,4.0,No,December
+PT1409,10,Female,General Medicine,OPD,20.0,16,2.2,2144.0,No,Not Admitted,4.0,No,May
+PT1410,25,Female,ENT,OPD,29.0,12,3.4,674.0,Yes,Not Admitted,4.0,No,January
+PT1411,30,Female,Cardiology,OPD,42.0,24,25.6,30051.0,No,Admitted,4.0,No,June
+PT1412,32,Female,Cardiology,OPD,36.0,25,0.8,4183.0,No,Not Admitted,2.0,No,July
+PT1413,40,Female,General Medicine,OPD,20.0,5,1.1,2403.0,Yes,Not Admitted,3.0,Yes,July
+PT1414,34,Female,ENT,OPD,25.0,20,3.0,1903.0,No,Not Admitted,5.0,No,July
+PT1415,57,Male,General Medicine,OPD,13.0,19,3.5,1878.0,No,Not Admitted,3.0,No,December
+PT1416,28,Female,General Medicine,OPD,17.0,9,0.8,500.0,No,Not Admitted,4.0,No,October
+PT1417,24,Male,General Medicine,OPD,12.0,15,0.8,2224.0,No,Not Admitted,5.0,No,April
+PT1418,47,Male,Dermatology,OPD,5.0,11,2.8,1069.0,No,Not Admitted,5.0,No,May
+PT1419,13,Female,General Medicine,OPD,20.0,15,23.4,23665.0,No,Admitted,4.0,No,September
+PT1420,46,Female,ENT,OPD,21.0,13,0.7,1420.0,Yes,Not Admitted,4.0,No,May
+PT1421,41,Female,Cardiology,OPD,36.0,23,3.2,4953.0,No,Not Admitted,5.0,Yes,June
+PT1422,36,Male,General Medicine,OPD,22.0,18,2.9,2641.0,No,Not Admitted,5.0,No,March
+PT1423,66,Female,General Medicine,OPD,20.0,13,3.1,2872.0,No,Not Admitted,4.0,No,April
+PT1424,28,Male,General Medicine,OPD,22.0,23,2.5,2248.0,No,Not Admitted,4.0,No,September
+PT1425,74,Male,Cardiology,OPD,31.0,27,10.9,15300.0,Yes,Admitted,5.0,Yes,November
+PT1426,35,Male,Dermatology,OPD,17.0,7,3.2,666.0,No,Not Admitted,5.0,No,October
+PT1427,17,Female,General Medicine,OPD,13.0,19,1.4,2141.0,No,Not Admitted,5.0,No,April
+PT1428,40,Female,Dermatology,OPD,17.0,15,1.3,1690.0,Yes,Not Admitted,5.0,No,February
+PT1429,21,Female,General Medicine,OPD,23.0,17,3.2,2430.0,Yes,Not Admitted,4.0,Yes,February
+PT1430,26,Female,Dermatology,OPD,9.0,18,2.5,2759.0,Yes,Not Admitted,5.0,No,May
+PT1431,46,Female,ENT,Emergency,12.0,18,3.2,3745.0,Yes,Not Admitted,5.0,Yes,July
+PT1432,48,Male,Dermatology,Emergency,2.0,16,11.3,12971.0,Yes,Admitted,5.0,Yes,November
+PT1433,28,Male,Cardiology,OPD,27.0,26,61.8,64009.0,Yes,Admitted,4.0,No,November
+PT1434,56,Male,Dermatology,Emergency,2.0,11,2.3,2301.0,Yes,Not Admitted,5.0,No,January
+PT1435,59,Male,General Medicine,OPD,27.0,12,2.5,1621.0,No,Not Admitted,5.0,No,September
+PT1436,63,Female,General Medicine,Emergency,17.0,25,37.5,38660.0,No,Admitted,4.0,No,April
+PT1437,48,Male,General Medicine,Emergency,14.0,19,1.6,2667.0,No,Not Admitted,,No,March
+PT1438,62,Male,Pediatrics,OPD,30.0,8,2.7,2658.0,No,Not Admitted,4.0,Yes,July
+PT1439,7,Male,Dermatology,OPD,13.0,5,2.4,1394.0,No,Not Admitted,5.0,No,January
+PT1440,34,Male,Cardiology,Emergency,44.0,40,2.9,6546.0,No,Not Admitted,2.0,No,May
+PT1441,24,Female,Dermatology,Emergency,4.0,17,16.4,18211.0,No,Admitted,5.0,No,July
+PT1442,41,Female,General Medicine,Emergency,12.0,15,2.5,4020.0,Yes,Not Admitted,5.0,No,April
+PT1443,29,Female,Dermatology,OPD,11.0,11,25.1,26238.0,No,Admitted,5.0,No,August
+PT1444,36,Female,General Medicine,OPD,21.0,6,1.0,953.0,Yes,Not Admitted,4.0,No,June
+PT1445,71,Male,General Medicine,Emergency,16.0,25,3.4,3275.0,Yes,Not Admitted,3.0,No,October
+PT1446,36,Female,Cardiology,OPD,30.0,25,22.6,26027.0,Yes,Admitted,3.0,No,March
+PT1447,46,Male,ENT,OPD,,23,3.4,3005.0,No,Not Admitted,4.0,Yes,January
+PT1448,35,Male,Cardiology,OPD,33.0,27,0.6,4439.0,No,Not Admitted,4.0,Yes,July
+PT1449,40,Female,General Medicine,OPD,20.0,20,1.6,2641.0,Yes,Not Admitted,5.0,Yes,April
+PT1450,39,Female,Cardiology,OPD,25.0,28,2.8,5699.0,No,Not Admitted,5.0,No,September
+PT1451,47,Male,General Medicine,OPD,21.0,17,2.8,1453.0,Yes,Not Admitted,5.0,No,February
+PT1452,59,Male,ENT,OPD,19.0,20,0.8,2080.0,No,Not Admitted,4.0,No,July
+PT1453,67,Female,Cardiology,OPD,27.0,30,2.3,4784.0,No,Not Admitted,5.0,Yes,December
+PT1454,44,Female,General Medicine,Emergency,5.0,20,0.9,2810.0,No,Not Admitted,4.0,No,February
+PT1455,49,Male,General Medicine,OPD,37.0,12,2.0,2899.0,No,Not Admitted,4.0,Yes,April
+PT1456,19,Female,General Medicine,OPD,16.0,23,1.2,3176.0,Yes,Not Admitted,4.0,No,November
+PT1457,38,Male,ENT,OPD,10.0,11,0.7,2544.0,Yes,Not Admitted,5.0,No,July
+PT1458,55,Female,Pediatrics,Emergency,3.0,20,0.7,3105.0,No,Not Admitted,5.0,No,March
+PT1459,54,Female,Dermatology,OPD,14.0,12,53.2,52133.0,No,Admitted,4.0,Yes,March
+PT1460,43,Male,Cardiology,OPD,,29,2.7,4177.0,Yes,Not Admitted,4.0,No,October
+PT1461,54,Male,Pediatrics,OPD,20.0,13,3.3,2505.0,Yes,Not Admitted,5.0,No,November
+PT1462,47,Male,General Medicine,OPD,23.0,15,1.9,2295.0,Yes,Not Admitted,4.0,No,May
+PT1463,59,Female,ENT,OPD,15.0,15,1.7,3032.0,Yes,Not Admitted,4.0,Yes,June
+PT1464,44,Male,Orthopedics,Emergency,18.0,19,48.3,49544.0,Yes,Admitted,4.0,No,October
+PT1465,33,Male,Pediatrics,OPD,10.0,15,2.3,2147.0,Yes,Not Admitted,5.0,No,March
+PT1466,45,Female,Cardiology,OPD,27.0,21,1.6,4469.0,No,Not Admitted,4.0,No,March
+PT1467,1,Female,Cardiology,Emergency,17.0,23,29.8,33976.0,Yes,Admitted,4.0,No,October
+PT1468,46,Female,ENT,OPD,12.0,17,70.7,68831.0,Yes,Admitted,4.0,No,March
+PT1469,1,Male,General Medicine,Emergency,17.0,20,3.1,3455.0,Yes,Not Admitted,5.0,No,October
+PT1470,10,Female,Pediatrics,OPD,21.0,18,1.2,2439.0,Yes,Not Admitted,4.0,No,June
+PT1471,47,Male,Orthopedics,OPD,31.0,25,2.1,2993.0,No,Not Admitted,4.0,No,December
+PT1472,47,Female,Pediatrics,Emergency,8.0,10,1.2,1353.0,Yes,Not Admitted,5.0,Yes,January
+PT1473,19,Male,General Medicine,OPD,23.0,6,0.6,1275.0,No,Not Admitted,5.0,No,December
+PT1474,27,Female,General Medicine,OPD,6.0,23,2.6,3421.0,No,Not Admitted,5.0,Yes,March
+PT1475,62,Male,General Medicine,Emergency,16.0,13,2.1,3446.0,Yes,Not Admitted,5.0,No,January
+PT1476,31,Female,Orthopedics,OPD,25.0,25,2.7,3770.0,No,Not Admitted,4.0,No,September
+PT1477,77,Female,Orthopedics,OPD,28.0,19,0.8,4204.0,No,Not Admitted,4.0,No,July
+PT1478,39,Male,Cardiology,OPD,34.0,27,3.5,4801.0,Yes,Not Admitted,3.0,No,November
+PT1479,46,Male,Cardiology,OPD,24.0,24,3.5,5124.0,Yes,Not Admitted,4.0,No,February
+PT1480,66,Male,Orthopedics,OPD,14.0,25,1.9,3327.0,No,Not Admitted,5.0,No,January
+PT1481,41,Female,Orthopedics,OPD,19.0,23,3.1,3142.0,No,Not Admitted,4.0,Yes,July
+PT1482,22,Male,General Medicine,OPD,22.0,11,1.2,1352.0,Yes,Not Admitted,5.0,No,November
+PT1483,37,Male,Pediatrics,OPD,,10,2.7,717.0,Yes,Not Admitted,4.0,No,May
+PT1484,38,Male,Orthopedics,OPD,14.0,23,3.1,4133.0,Yes,Not Admitted,4.0,No,October
+PT1485,16,Female,General Medicine,Emergency,3.0,12,2.9,2097.0,No,Not Admitted,5.0,No,November
+PT1486,35,Male,Orthopedics,OPD,19.0,24,2.9,3059.0,Yes,Not Admitted,4.0,Yes,November
+PT1487,26,Male,Pediatrics,Emergency,5.0,33,30.5,32551.0,Yes,Admitted,5.0,Yes,July
+PT1488,55,Male,General Medicine,OPD,8.0,20,3.0,2288.0,No,Not Admitted,4.0,No,September
+PT1489,40,Female,Pediatrics,Emergency,2.0,24,2.6,4520.0,No,Not Admitted,5.0,No,July
+PT1490,34,Female,Pediatrics,OPD,10.0,15,0.9,3377.0,No,Not Admitted,5.0,No,September
+PT1491,37,Male,Cardiology,OPD,32.0,17,0.8,3162.0,Yes,Not Admitted,4.0,No,July
+PT1492,43,Male,Cardiology,Emergency,15.0,25,69.7,71345.0,Yes,Admitted,5.0,No,July
+PT1493,49,Male,Cardiology,OPD,30.0,33,2.4,4706.0,No,Not Admitted,5.0,No,June
+PT1494,22,Female,Orthopedics,OPD,31.0,18,2.1,3594.0,No,Not Admitted,3.0,No,August
+PT1495,21,Female,Dermatology,OPD,5.0,9,3.2,1683.0,Yes,Not Admitted,5.0,No,October
+PT1496,58,Male,Pediatrics,OPD,15.0,14,2.5,1800.0,No,Not Admitted,5.0,No,December
+PT1497,32,Female,Orthopedics,OPD,31.0,17,1.7,3015.0,Yes,Not Admitted,2.0,No,August
+PT1498,15,Female,Cardiology,OPD,28.0,21,1.7,4112.0,Yes,Not Admitted,4.0,No,February
+PT1499,47,Male,Orthopedics,OPD,20.0,22,2.3,4238.0,Yes,Not Admitted,4.0,No,August
+PT1500,47,Male,Pediatrics,OPD,24.0,11,2.8,2226.0,Yes,Not Admitted,4.0,No,April
